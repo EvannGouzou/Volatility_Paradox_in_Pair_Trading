@@ -1,0 +1,37 @@
+PRICE NORMALIZATION
+Normalized_Price = Price(t) / Price(0)
+
+SPREAD CALCULATION
+Spread(t) = Stock_A_normalized(t) - Stock_B_normalized(t)
+
+Z-SCORE (TRADING SIGNAL)
+Z-Score(t) = [Spread(t) - Rolling_Mean(30d)] / Rolling_Std(30d)
+
+CORRELATION
+ρ(A,B) = Covariance(Returns_A, Returns_B) / (σ_A × σ_B)
+Return(t) = [Price(t) - Price(t-1)] / Price(t-1)
+
+ANNUALIZED VOLATILITY
+Volatility = σ_daily × √252
+
+σ_daily = √[1/n × Σ(return_i - mean)²]
+
+252 = number of trading days per year
+Pair_Volatility = (Vol_A + Vol_B) / 2
+
+PnL (PROFIT & LOSS) CALCULATION
+PnL = Position × (Exit_Spread - Entry_Spread)
+Long_spread_position (+1): Buy A, Sell B
+Short_spread_position (-1): Sell A, Buy B
+
+PERFORMANCE METRICS
+Total_Return = Σ(all PnL trades)
+Win_Rate = Number_winning_trades / Total_trades
+Volatility_Rank = Rank of volatility (1 = lowest volatility)
+
+VOLATILITY PARADOX TEST
+Correlation_Performance_Vol = Corr(Volatility_Rank, Total_Return)
+
+
+
+
