@@ -7,7 +7,7 @@ Spread(t) = Stock_A_normalized(t) - Stock_B_normalized(t)
 Z-SCORE (TRADING SIGNAL)
 Z-Score(t) = [Spread(t) - Rolling_Mean(30d)] / Rolling_Std(30d)
 
-CORRELATION
+PEARSON CORRELATION COEFFICIENT
 ρ(A,B) = Covariance(Returns_A, Returns_B) / (σ_A × σ_B)
 Return(t) = [Price(t) - Price(t-1)] / Price(t-1)
 
