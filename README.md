@@ -1,2 +1,5 @@
 # Volatility_Paradox_in_Pair_Trading
 Volatility Paradox in Pair Trading using stocks
+
+
+This script aims to test the "volatility paradox" in pairs trading using real market data from 45 same-sector stock pairs. The common belief in trading is that higher volatility creates more opportunities and therefore more profits especially in pair trading, but this analysis challenges that assumption. The script begins with an educational foundation showing how pairs trading works using JPM-GS as an example, then systematically calculates real correlations for multiple stock pairs across different sectors (Technology, Banking, Energy, Consumer, Automotive). By ranking pairs both by performance and volatility, the analysis reveals whether stable, well-correlated pairs actually outperform highly volatile ones. The ultimate goal is to prove that in pairs trading, seeking stability and strong correlations yields better results than chasing high-volatility, exciting pairs. The findings demonstrate that pairs with lower volatility ranks consistently outperform their more volatile.
